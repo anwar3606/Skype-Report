@@ -1,0 +1,6 @@
+venv
+*.ipynb
+*.json
+*.html
+.idea
+__pycache__
