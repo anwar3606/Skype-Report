@@ -61,7 +61,7 @@ def preprocess_data(data):
         'Early Morning (4am-8am)',
         'Morning (8am-12pm)',
         'Noon (12pm-4pm)',
-        'Eve (4pm-8pm)',
+        'Evening (4pm-8pm)',
         'Night (8pm-12am)'
     ]
     df['part_of_day'] = pd.cut(df['hour'], bins=bins, labels=labels, include_lowest=True)
