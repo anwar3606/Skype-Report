@@ -1,11 +1,9 @@
-import datetime as dt
 import json
 import sys
 import webbrowser
 
 import pandas as pd
 import html
-import plotly.graph_objects as go
 import plotly.express as px
 
 week_day_names = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
